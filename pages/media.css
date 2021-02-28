@@ -1,0 +1,49 @@
+@media (max-width: 950px) {
+  .main {
+    max-width: 620px;
+  }
+  .container_for_programm {
+    display: block;
+  }
+  .skills_section {
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 650px) {
+  .main {
+    max-width: 350px;
+  }
+  .menu_list {
+    display: none;
+  }
+  .header_title {
+    display: block;
+  }
+  .left_header_title {
+    display: none;
+  }
+  .media_burger_fl {
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger {
+    padding-top: 50px;
+    display: block;
+  }
+  .portretImg {
+    background: url(../src/header/adaptPort.png) no-repeat;
+    margin: 0 auto;
+    display: block;
+    width: 316px;
+  }
+  .skills_container > h1 {
+    padding: 50px 0px 40px 0px;
+  }
+  .skills_container > p {
+    padding-bottom: 30px;
+  }
+  .line {
+    display: none;
+  }
+}
